@@ -1,0 +1,182 @@
+/************************Tag Selectors********************************/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.938rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 32px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.938rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+button{
+  margin: 20px 0px 40px 0;
+}
+
+li {
+  position: relative;
+  bottom: 50px;
+  margin: 0 30px;
+}
+
+/************************Classes and ids Selectors***************************/
+/***********Title***********/
+#title {
+  background-color: #ff4c68;
+}
+.btn-apple{
+  margin: 20px 20px 40px 0;
+}
+
+.par-white {
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.container-fluid {
+  padding: 3% 15% 0 15%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 67px;
+  position: relative;
+  top: -23px;
+}
+
+.nav-bar {
+  position: relative;
+  bottom: 50px;
+}
+
+.mockup {
+  width: 273px;
+  transform: rotate(30deg);
+  position: relative;
+  left: 109px;
+  position: absolute;
+}
+
+/***********Features***********/
+#features {
+  text-align: center;
+  line-height: 1.5;
+  padding: 11% 0;
+  background-color: powderblue;
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.250rem;
+  font-weight: bolder;
+}
+
+.features-icons {
+  font-size: 50px;
+  color: #ef8172;
+  margin-bottom: 30px;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-container {
+  padding-right: 10px;
+}
+
+/***********Testimonials***********/
+#testimonials {
+  text-align: center;
+  padding: 8% 10% 5% 10%;
+  background-color: #ff4c68;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/***********Press***********/
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 13%;
+  margin: 27px;
+}
+
+/***********Pricing***********/
+#pricing {
+  padding: 5% 6%;
+  background-color: powderblue;
+}
+
+.price-h2 {
+  color: White;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  margin: 3px;
+  margin-top: 39px;
+  border: none;
+}
+
+.card-header {
+  background-color: #A9A9A9;
+}
+
+.card-body {
+  background-color: #ef8172;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.pricing-par {
+  font-weight: 500;
+  color: white;
+}
+
+/*****************************CTA*********************************/
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 107px;
+  padding-bottom:95px;
+}
+/*****************************Footer*******************************/
+
+#footer{
+  background-color: powderblue;
+  text-align: center;
+  padding: 107px;
+  padding-bottom:57px;
+
+}
+/*****************************Responsive**************************/
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .mockup {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
